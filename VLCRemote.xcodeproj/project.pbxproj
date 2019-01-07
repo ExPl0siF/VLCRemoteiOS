@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4D1AFD9164058413730817A /* Pods_VLCRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2236C87041C774FF57B6E797 /* Pods_VLCRemote.framework */; };
+		D681E3EF664EE93F700C26B1 /* Pods_VLCRemote_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA35DD86CB2379598A36D12E /* Pods_VLCRemote_Extension.framework */; };
+		F010ED2120422E1F004BBE20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01AEC97203DD19500015650 /* ViewController.swift */; };
+		F0151363203FB24C0095CCC2 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985B61203FAB6B0036BC41 /* TodayViewController.swift */; };
+		F0151365203FB7F10095CCC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D0CD0D203E418D00F22F1C /* Assets.xcassets */; };
+		F0151367203FBC700095CCC2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0985B63203FAB6B0036BC41 /* MainInterface.storyboard */; };
+		F01AEC96203DD19500015650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01AEC95203DD19500015650 /* AppDelegate.swift */; };
+		F01AEC98203DD19500015650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01AEC97203DD19500015650 /* ViewController.swift */; };
+		F01AEC9B203DD19500015650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01AEC99203DD19500015650 /* Main.storyboard */; };
+		F01AECA0203DD19500015650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01AEC9E203DD19500015650 /* LaunchScreen.storyboard */; };
+		F03CA807203DF7DB00B09512 /* LangageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03CA806203DF7DB00B09512 /* LangageViewController.swift */; };
+		F059DF812042282300B4A43F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F059DF802042282300B4A43F /* Utils.swift */; };
+		F0985B5F203FAB6B0036BC41 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0985B5E203FAB6B0036BC41 /* NotificationCenter.framework */; };
+		F0985B62203FAB6B0036BC41 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985B61203FAB6B0036BC41 /* TodayViewController.swift */; };
+		F0985B65203FAB6B0036BC41 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0985B63203FAB6B0036BC41 /* MainInterface.storyboard */; };
+		F0985B69203FAB6B0036BC41 /* VLCRemote Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F0985B5D203FAB6B0036BC41 /* VLCRemote Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F0D0CD0E203E418D00F22F1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D0CD0D203E418D00F22F1C /* Assets.xcassets */; };
+		F0EF9ED5203EF3A9003B8A33 /* IPSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF9ED4203EF3A9003B8A33 /* IPSelectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0985B67203FAB6B0036BC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F01AEC8A203DD19400015650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0985B5C203FAB6B0036BC41;
+			remoteInfo = "VLCRemote Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0985B6D203FAB6B0036BC41 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F0985B69203FAB6B0036BC41 /* VLCRemote Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2236C87041C774FF57B6E797 /* Pods_VLCRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VLCRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		563426E20F1413AB4DF340FC /* Pods-VLCRemote Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VLCRemote Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-VLCRemote Extension/Pods-VLCRemote Extension.release.xcconfig"; sourceTree = "<group>"; };
+		61578244CDF985D19F17AA11 /* Pods-VLCRemote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VLCRemote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VLCRemote/Pods-VLCRemote.debug.xcconfig"; sourceTree = "<group>"; };
+		BEBF3E6A8CCAAAE0166068E0 /* Pods-VLCRemote Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VLCRemote Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VLCRemote Extension/Pods-VLCRemote Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		DCD775DF97313D04C3AE9739 /* Pods-VLCRemote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VLCRemote.release.xcconfig"; path = "Pods/Target Support Files/Pods-VLCRemote/Pods-VLCRemote.release.xcconfig"; sourceTree = "<group>"; };
+		EA35DD86CB2379598A36D12E /* Pods_VLCRemote_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VLCRemote_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01AEC92203DD19500015650 /* VLCRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLCRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01AEC95203DD19500015650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F01AEC97203DD19500015650 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F01AEC9A203DD19500015650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F01AEC9F203DD19500015650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F01AECA1203DD19500015650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03CA806203DF7DB00B09512 /* LangageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangageViewController.swift; sourceTree = "<group>"; };
+		F059DF802042282300B4A43F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F0985B5D203FAB6B0036BC41 /* VLCRemote Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VLCRemote Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0985B5E203FAB6B0036BC41 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		F0985B61203FAB6B0036BC41 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		F0985B64203FAB6B0036BC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		F0985B66203FAB6B0036BC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D0CD0D203E418D00F22F1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0EF9ED4203EF3A9003B8A33 /* IPSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPSelectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F01AEC8F203DD19400015650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D1AFD9164058413730817A /* Pods_VLCRemote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0985B5A203FAB6B0036BC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0985B5F203FAB6B0036BC41 /* NotificationCenter.framework in Frameworks */,
+				D681E3EF664EE93F700C26B1 /* Pods_VLCRemote_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E895E5C4D5CF3290B301DD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61578244CDF985D19F17AA11 /* Pods-VLCRemote.debug.xcconfig */,
+				DCD775DF97313D04C3AE9739 /* Pods-VLCRemote.release.xcconfig */,
+				BEBF3E6A8CCAAAE0166068E0 /* Pods-VLCRemote Extension.debug.xcconfig */,
+				563426E20F1413AB4DF340FC /* Pods-VLCRemote Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8DE36EAA54CF7539CF04097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2236C87041C774FF57B6E797 /* Pods_VLCRemote.framework */,
+				F0985B5E203FAB6B0036BC41 /* NotificationCenter.framework */,
+				EA35DD86CB2379598A36D12E /* Pods_VLCRemote_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F01AEC89203DD19400015650 = {
+			isa = PBXGroup;
+			children = (
+				F01AEC94203DD19500015650 /* VLCRemote */,
+				F0985B60203FAB6B0036BC41 /* VLCRemote Extension */,
+				F01AEC93203DD19500015650 /* Products */,
+				7E895E5C4D5CF3290B301DD7 /* Pods */,
+				A8DE36EAA54CF7539CF04097 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F01AEC93203DD19500015650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F01AEC92203DD19500015650 /* VLCRemote.app */,
+				F0985B5D203FAB6B0036BC41 /* VLCRemote Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F01AEC94203DD19500015650 /* VLCRemote */ = {
+			isa = PBXGroup;
+			children = (
+				F01AEC95203DD19500015650 /* AppDelegate.swift */,
+				F01AEC97203DD19500015650 /* ViewController.swift */,
+				F03CA806203DF7DB00B09512 /* LangageViewController.swift */,
+				F0EF9ED4203EF3A9003B8A33 /* IPSelectionViewController.swift */,
+				F059DF802042282300B4A43F /* Utils.swift */,
+				F01AEC99203DD19500015650 /* Main.storyboard */,
+				F0D0CD0D203E418D00F22F1C /* Assets.xcassets */,
+				F01AEC9E203DD19500015650 /* LaunchScreen.storyboard */,
+				F01AECA1203DD19500015650 /* Info.plist */,
+			);
+			path = VLCRemote;
+			sourceTree = "<group>";
+		};
+		F0985B60203FAB6B0036BC41 /* VLCRemote Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F0985B61203FAB6B0036BC41 /* TodayViewController.swift */,
+				F0985B63203FAB6B0036BC41 /* MainInterface.storyboard */,
+				F0985B66203FAB6B0036BC41 /* Info.plist */,
+			);
+			path = "VLCRemote Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F01AEC91203DD19400015650 /* VLCRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01AECA4203DD19500015650 /* Build configuration list for PBXNativeTarget "VLCRemote" */;
+			buildPhases = (
+				198B21B4B90E62798D7B7944 /* [CP] Check Pods Manifest.lock */,
+				F01AEC8E203DD19400015650 /* Sources */,
+				F01AEC8F203DD19400015650 /* Frameworks */,
+				F01AEC90203DD19400015650 /* Resources */,
+				8A4DFF6C2029CA42B73F1E3A /* [CP] Embed Pods Frameworks */,
+				F0985B6D203FAB6B0036BC41 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0985B68203FAB6B0036BC41 /* PBXTargetDependency */,
+			);
+			name = VLCRemote;
+			productName = VLCRemote;
+			productReference = F01AEC92203DD19500015650 /* VLCRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0985B5C203FAB6B0036BC41 /* VLCRemote Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0985B6C203FAB6B0036BC41 /* Build configuration list for PBXNativeTarget "VLCRemote Extension" */;
+			buildPhases = (
+				AC72C9F152FF3DBC1D474754 /* [CP] Check Pods Manifest.lock */,
+				F0985B59203FAB6B0036BC41 /* Sources */,
+				F0985B5A203FAB6B0036BC41 /* Frameworks */,
+				F0985B5B203FAB6B0036BC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VLCRemote Extension";
+			productName = "VLCRemote Extension";
+			productReference = F0985B5D203FAB6B0036BC41 /* VLCRemote Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F01AEC8A203DD19400015650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Nothing;
+				TargetAttributes = {
+					F01AEC91203DD19400015650 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					F0985B5C203FAB6B0036BC41 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F01AEC8D203DD19400015650 /* Build configuration list for PBXProject "VLCRemote" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F01AEC89203DD19400015650;
+			productRefGroup = F01AEC93203DD19500015650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F01AEC91203DD19400015650 /* VLCRemote */,
+				F0985B5C203FAB6B0036BC41 /* VLCRemote Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F01AEC90203DD19400015650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01AECA0203DD19500015650 /* LaunchScreen.storyboard in Resources */,
+				F0151367203FBC700095CCC2 /* MainInterface.storyboard in Resources */,
+				F0D0CD0E203E418D00F22F1C /* Assets.xcassets in Resources */,
+				F01AEC9B203DD19500015650 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0985B5B203FAB6B0036BC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0151365203FB7F10095CCC2 /* Assets.xcassets in Resources */,
+				F0985B65203FAB6B0036BC41 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		198B21B4B90E62798D7B7944 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VLCRemote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A4DFF6C2029CA42B73F1E3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VLCRemote/Pods-VLCRemote-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MMLanScan/MMLanScan.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMLanScan.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VLCRemote/Pods-VLCRemote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC72C9F152FF3DBC1D474754 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VLCRemote Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F01AEC8E203DD19400015650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EF9ED5203EF3A9003B8A33 /* IPSelectionViewController.swift in Sources */,
+				F03CA807203DF7DB00B09512 /* LangageViewController.swift in Sources */,
+				F0151363203FB24C0095CCC2 /* TodayViewController.swift in Sources */,
+				F01AEC98203DD19500015650 /* ViewController.swift in Sources */,
+				F01AEC96203DD19500015650 /* AppDelegate.swift in Sources */,
+				F059DF812042282300B4A43F /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0985B59203FAB6B0036BC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F010ED2120422E1F004BBE20 /* ViewController.swift in Sources */,
+				F0985B62203FAB6B0036BC41 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0985B68203FAB6B0036BC41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0985B5C203FAB6B0036BC41 /* VLCRemote Extension */;
+			targetProxy = F0985B67203FAB6B0036BC41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F01AEC99203DD19500015650 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F01AEC9A203DD19500015650 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F01AEC9E203DD19500015650 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F01AEC9F203DD19500015650 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F0985B63203FAB6B0036BC41 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0985B64203FAB6B0036BC41 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F01AECA2203DD19500015650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F01AECA3203DD19500015650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F01AECA5203DD19500015650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61578244CDF985D19F17AA11 /* Pods-VLCRemote.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9478G9T3JY;
+				INFOPLIST_FILE = VLCRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nothing.VLCRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F01AECA6203DD19500015650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD775DF97313D04C3AE9739 /* Pods-VLCRemote.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9478G9T3JY;
+				INFOPLIST_FILE = VLCRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nothing.VLCRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0985B6A203FAB6B0036BC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBF3E6A8CCAAAE0166068E0 /* Pods-VLCRemote Extension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9478G9T3JY;
+				INFOPLIST_FILE = "VLCRemote Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nothing.VLCRemote.VLCRemote-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0985B6B203FAB6B0036BC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 563426E20F1413AB4DF340FC /* Pods-VLCRemote Extension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9478G9T3JY;
+				INFOPLIST_FILE = "VLCRemote Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nothing.VLCRemote.VLCRemote-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F01AEC8D203DD19400015650 /* Build configuration list for PBXProject "VLCRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01AECA2203DD19500015650 /* Debug */,
+				F01AECA3203DD19500015650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F01AECA4203DD19500015650 /* Build configuration list for PBXNativeTarget "VLCRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01AECA5203DD19500015650 /* Debug */,
+				F01AECA6203DD19500015650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0985B6C203FAB6B0036BC41 /* Build configuration list for PBXNativeTarget "VLCRemote Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0985B6A203FAB6B0036BC41 /* Debug */,
+				F0985B6B203FAB6B0036BC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F01AEC8A203DD19400015650 /* Project object */;
+}

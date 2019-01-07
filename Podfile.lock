@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.7.2)
+  - KeychainSwift (11.0.0)
+  - MMLanScan (3.0.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - KeychainSwift
+  - MMLanScan
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - KeychainSwift
+    - MMLanScan
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  KeychainSwift: bea6bd9f98af7b8d7ca4aa79fe105c00fab532db
+  MMLanScan: 86a0f77edbf163be30c1f58321469c7c8ce4c50e
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: dc67a0b1ccac2997033e8c8023de844949cc042f
+
+COCOAPODS: 1.5.3
